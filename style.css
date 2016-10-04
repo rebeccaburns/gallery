@@ -1,1 +1,24 @@
+html{
+  color:blue;
+}
+h1{
+  color:red;
+}
+.panel{
+  display: inline-block;
+  width: 33%;
+}
+img{
+  width: 100%
+}
+@media screen and (min-width: 478px){
+  .panel{
+    width: 49%;
+  }
+}
+@media screen and (min-width: 768px){
+  .panel{
+    width: 43%;
+  }
+}
 
